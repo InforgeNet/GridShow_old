@@ -1,0 +1,20 @@
+{
+    "legacy_addon_id": "",
+    "title": "[Inforge] GridShow",
+    "description": "Show a grid of tiles in your homepage.",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "Inforge",
+    "dev_url": "https://www.inforge.net",
+    "faq_url": "https://github.com/InforgeNet/GridShow/wiki/Frequently-Asked-Questions",
+    "support_url": "https://github.com/InforgeNet/GridShow/issues",
+    "extra_urls": {
+	    "GitHub": "https://github.com/InforgeNet/GridShow",
+	    "Forum": "https://www.inforge.net/forum"
+    },
+    "require": {
+	    "XF": [ 2010010, "XenForo 2.1.0+" ],
+	    "php": [ "5.6.0", "PHP 5.6.0+" ]
+    },
+    "icon": "fa-th"
+}

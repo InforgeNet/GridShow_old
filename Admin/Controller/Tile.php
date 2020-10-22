@@ -26,7 +26,7 @@ class Tile extends \XF\Admin\Controller\AbstractController
 	public function actionAdd()
 	{
 		$tile = $this->em()->create('Inforge\GridShow:Tile');
-		return $thi->tileAddEdit($tile);
+		return $this->tileAddEdit($tile);
 	}
 
 	public function actionEdit(ParameterBag $params)

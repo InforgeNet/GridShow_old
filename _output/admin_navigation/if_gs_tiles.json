@@ -1,7 +1,7 @@
 {
     "parent_navigation_id": "communication",
     "display_order": 150,
-    "link": "if-gs-list",
+    "link": "if-gs-tiles",
     "icon": "",
     "admin_permission_id": "ifGsTiles",
     "debug_only": false,

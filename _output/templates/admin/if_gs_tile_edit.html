@@ -5,10 +5,10 @@
 </xf:if>
 
 <xf:pageaction if="$tile.isUpdate()">
-	<xf:button href="{{ link('if-gs-list/delete', $tile) }}" icon="delete" overlay="true" />
+	<xf:button href="{{ link('if-gs-tiles/delete', $tile) }}" icon="delete" overlay="true" />
 </xf:pageaction>
 
-<xf:form action="{{ link('if-gs-list/save', $tile) }}" ajax="true" class="block">
+<xf:form action="{{ link('if-gs-tiles/save', $tile) }}" ajax="true" class="block">
 	<div class="block-container">
 		<div class="block-body">
 			<xf:textboxrow name="title" value="{$tile.title}"

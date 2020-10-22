@@ -2,12 +2,12 @@
     "admin/if_gs_tile_edit.html": {
         "version_id": 1000070,
         "version_string": "1.0.0",
-        "hash": "40f0e578af0a2607a80a2bb6ab6f3402"
+        "hash": "d3f6f762a39abbd6d444b259f7c3f9e8"
     },
     "admin/if_gs_tile_list.html": {
         "version_id": 1000070,
         "version_string": "1.0.0",
-        "hash": "9217193fc2acd618a42f772cd3bb0e98"
+        "hash": "b9f34fcd7b8a0b7e894e46dbf3dc093d"
     },
     "public/if_gs_gridshow_widget.html": {
         "version_id": 1000070,

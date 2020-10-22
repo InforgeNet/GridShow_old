@@ -41,9 +41,9 @@ class Tile extends \XF\Admin\Controller\AbstractController
 		$plugin = $this->plugin('XF:Delete');
 		return $plugin->actionDelete(
 			$tile,
-			$this->buildLink('if-gs-list/delete', $tile),
-			$this->buildLink('if-gs-list/edit', $tile),
-			$this->buildLink('if-gs-list'),
+			$this->buildLink('if-gs-tiles/delete', $tile),
+			$this->buildLink('if-gs-tiles/edit', $tile),
+			$this->buildLink('if-gs-tiles'),
 			$tile->title
 		);
 	}
@@ -56,7 +56,7 @@ class Tile extends \XF\Admin\Controller\AbstractController
 		else
 			$tile = $this->em()->create('Inforge\GridShow:Tile');
 		$this->tileSaveProcess($tile)->run();
-		return $this->redirect($this->buildLink('if-gs-list') . $this->buildLinkHash($tile->tile_id));
+		return $this->redirect($this->buildLink('if-gs-tiles') . $this->buildLinkHash($tile->tile_id));
 	}
 
 	public function actionToggle()

@@ -1,11 +1,11 @@
 {
     "route_type": "admin",
-    "route_prefix": "if-gs-list",
+    "route_prefix": "if-gs-tiles",
     "sub_name": "",
     "format": ":int<tile_id,title>/",
     "build_class": "",
     "build_method": "",
     "controller": "Inforge\\GridShow:Tile",
-    "context": "if-gs-list",
+    "context": "if-gs-tiles",
     "action_prefix": ""
 }

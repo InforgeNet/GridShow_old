@@ -19,7 +19,7 @@ class Setup extends AbstractSetup
 		$this->schemaManager()->createTable('xf_if_gs_tiles', function (Create $table)
 		{
 			$table->addColumn('tile_id', 'int')->autoIncrement();
-			$table->addColumn('title', 'varchar', 200);
+			$table->addColumn('title', 'varchar', 150);
 			$table->addColumn('category', 'varchar', 25)->setDefault('');
 			$table->addColumn('link', 'varchar', 200);
 			$table->addColumn('image_url', 'varchar', 200);

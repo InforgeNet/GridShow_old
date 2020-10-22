@@ -18,7 +18,7 @@ class Tile extends \XF\Mvc\Entity\Entity
 			],
 			'title' => [
 				'type' => self::STR,
-				'maxLength' => 200,
+				'maxLength' => 150,
 				'required' => 'please_enter_valid_title'
 			],
 			'category' => [

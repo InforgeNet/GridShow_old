@@ -1,4 +1,46 @@
 {
+    "admin_navigation.if_gs_list.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "c38b9eb0d074ea6cb5e28373fba43955"
+    },
+    "admin_permission.ifGsTiles.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "8b443f1d9940fe099c6aea132c12a314"
+    },
+    "if_gs_add_tile.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "95c9f013e3bd9188fffd8896bf9ede38"
+    },
+    "if_gs_create_new_tile.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "8349c4708f356f3db33edf5193c6eb53"
+    },
+    "if_gs_edit_tile.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "f3aa4035483a9aec32c98b8fe008f017"
+    },
+    "if_gs_list_of_tiles.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4f397bc35465f1b3662a319c5daff680"
+    },
+    "if_gs_url_contains_disallowed_scheme.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "491be8ac06c38c3531c162cb203c78b9"
+    },
     "widget_def.if_gs_widget.txt": {
         "global_cache": false,
         "version_id": 1000070,

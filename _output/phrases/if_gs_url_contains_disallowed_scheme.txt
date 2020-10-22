@@ -1,0 +1,1 @@
+The inserted URL contains a disallowed scheme. Please, insert a valid URL.

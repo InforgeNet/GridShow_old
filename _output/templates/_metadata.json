@@ -1,4 +1,14 @@
 {
+    "admin/if_gs_tile_edit.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "25bbe69f2dd04ad1651f70504e57c5a5"
+    },
+    "admin/if_gs_tile_list.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "934a70d39dbee97dc146057dc82c8d49"
+    },
     "public/if_gs_gridshow_widget.html": {
         "version_id": 1000070,
         "version_string": "1.0.0",

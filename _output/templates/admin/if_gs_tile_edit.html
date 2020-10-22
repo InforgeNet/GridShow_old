@@ -1,0 +1,39 @@
+<xf:if is="$tile.isInsert()">
+	<xf:title>{{ phrase('if_gs_create_new_tile') }}</xf:title>
+<xf:else />
+	<xf:title>{{ phrase('if_gs_edit_tile:') }} {$tile.title}</xf:title>
+</xf:if>
+
+<xf:pageaction if="$tile.isUpdate()">
+	<xf:button href="{{ link('if-gs-list/delete', $tile) }}" icon="delete" overlay="true" />
+</xf:pageaction>
+
+<xf:form action="{{ link('if-gs-list/save', $tile) }}" ajax="true" class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:textboxrow name="title" value="{$content.tile}"
+				maxlength="{{ max_length($tile, 'title') }}"
+				label="{{ phrase('title') }}" />
+
+			<xf:textboxrow name="category" value="{$tile.category}"
+				maxlength="{{ max_length($tile, 'category') }}"
+				label="{{ phrase('category') }}" />
+
+			<xf:textboxrow name="link" value="{$tile.link}"
+				maxlength="{{ max_length($tile, 'link') }}"
+				label="{{ phrase('link') }}" />
+
+			<xf:assetuploadrow name="image_url" label="{{ phrase('image') }}" value="{$tile.image_url}"
+				asset="gridshow_images"
+				maxlength="{{ max_length($tile, 'image_url') }}"
+				dir="ltr" />
+
+			<xf:numberboxrow name="display_order" value="{$tile.display_order}"
+				label="{{ phrase('display_order') }}" min="0" />
+			
+			<xf:checkboxrow name="active" value="{$tile.active}"
+				label="{{ phrase('enable') }}" />
+		</div>
+		<xf:submitrow icon="save" sticky="true" />
+	</div>
+</xf:form>

@@ -62,7 +62,7 @@ class Tile extends \XF\Mvc\Entity\Entity
 			return true;
 
 		if ($errorKey == 'disallowed_scheme')
-			$this->error(\XF::phrase('url_contains_disallowed_scheme'));
+			$this->error(\XF::phrase('if_gs_url_contains_disallowed_scheme'));
 		else
 			$this->error(\XF::phrase('please_enter_valid_url'));
 		return false;

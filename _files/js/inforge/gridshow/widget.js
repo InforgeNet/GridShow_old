@@ -2,15 +2,14 @@ function if_gs_fit_text()
 {
 	var titles = $(".if-gs-widget").find(".if-gs-tile-title");
 	titles.each(function() {
-		var mul = 0.05 + 0.02 * $(this).text().length;
-		var size = Math.max(Math.min($(this).width() / (mul*10)));
-		var min_size = 5 + 0.05 * $(this).width();
+		var size = Math.max(Math.min($(this).width() / (0.5 + 0.2 * $(this).text().length)));
+		var min_size = 6 + 0.04 * $(this).width();
 		if (min_size < 9)
 			min_size = 9;
 		if (size < min_size)
 			size = min_size;
-		if (size > 25)
-			size = 25;
+		if (size > 20)
+			size = 20;
 		$(this).css("font-size", size);
 	});
 }

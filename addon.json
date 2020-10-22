@@ -9,8 +9,8 @@
     "faq_url": "https://github.com/InforgeNet/GridShow/wiki/Frequently-Asked-Questions",
     "support_url": "https://github.com/InforgeNet/GridShow/issues",
     "extra_urls": {
-	    "GitHub": "https://github.com/InforgeNet/GridShow",
-	    "Forum": "https://www.inforge.net/forum"
+	    "Forum": "https://www.inforge.net/forum",
+	    "GitHub": "https://github.com/InforgeNet/GridShow"
     },
     "require": {
 	    "XF": [ 2010010, "XenForo 2.1.0+" ],

@@ -59,6 +59,12 @@ class Tile extends \XF\Admin\Controller\AbstractController
 		return $this->redirect($this->buildLink('if-gs-list') . $this->buildLinkHash($tile->tile_id));
 	}
 
+	public function actionToggle()
+	{
+		$plugin = $this->plugin('XF:Toggle');
+		return $plugin->actionToggle('Inforge\GridShow:Tile');
+	}
+
 	protected function tileSaveProcess(\Inforge\GridShow\Entity\Tile $tile)
 	{
 		$form = $this->formAction();

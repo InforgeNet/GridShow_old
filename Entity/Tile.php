@@ -42,7 +42,7 @@ class Tile extends \XF\Mvc\Entity\Entity
 			],
 			'active' => [
 				'type' => self::BOOL,
-				'default' => false
+				'default' => true
 			]
 		];
 

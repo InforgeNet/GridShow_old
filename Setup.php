@@ -24,7 +24,7 @@ class Setup extends AbstractSetup
 			$table->addColumn('link', 'varchar', 200);
 			$table->addColumn('image_url', 'varchar', 200);
 			$table->addColumn('display_order', 'int')->setDefault(0);
-			$table->addColumn('active', 'tinyint')->setDefault(0);
+			$table->addColumn('active', 'tinyint')->setDefault(1);
 			$table->addPrimaryKey('tile_id');
 		});
 	}

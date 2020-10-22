@@ -1,0 +1,14 @@
+{
+    "widget_def.if_gs_widget.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "0be1619cb398a325151dfd0111c74a34"
+    },
+    "widget_def_desc.if_gs_widget.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d3ee5a55b68b5972afefa8af2617bb6d"
+    }
+}

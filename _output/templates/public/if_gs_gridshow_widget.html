@@ -1,0 +1,14 @@
+<xf:css src="if_gs_gridshow_widget.less" />
+
+<div class="if-gs-widget">
+	<xf:foreach loop="$tiles" value="$tile">
+		<div class="if-gs-tile" style="background-image:url({$tile.image_url})" onclick="location.href='{$tile.link}';">
+			<div class="if-gs-tile-category">
+				{$tile.category}
+			</div>
+			<div class="if-gs-tile-title">
+				{$tile.title}
+			</div>
+		</div>
+	</xf:foreach>
+</div>

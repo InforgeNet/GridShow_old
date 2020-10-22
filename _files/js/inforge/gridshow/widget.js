@@ -1,3 +1,20 @@
+function if_gs_fit_text()
+{
+	var titles = $(".if-gs-widget").find(".if-gs-tile-title");
+	titles.each(function() {
+		var mul = 0.05 + 0.02 * $(this).text().length;
+		var size = Math.max(Math.min($(this).width() / (mul*10)));
+		var min_size = 5 + 0.05 * $(this).width();
+		if (min_size < 9)
+			min_size = 9;
+		if (size < min_size)
+			size = min_size;
+		if (size > 25)
+			size = 25;
+		$(this).css("font-size", size);
+	});
+}
+
 function if_gs_set_classes(tiles, pattern)
 {
 	var spans = pattern.split(" ", tiles.length);
@@ -60,4 +77,7 @@ function if_gs_arrange_tiles()
 	}
 	if_gs_set_classes(tiles, pattern);
 	widget.show();
+	if_gs_fit_text();
 }
+
+window.addEventListener("resize", if_gs_fit_text);

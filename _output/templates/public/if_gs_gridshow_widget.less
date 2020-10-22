@@ -12,10 +12,20 @@
 .if-gs-tile {
 	position: relative;
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	border-radius: 5px;
 	box-sizing: border-box;
 	cursor: pointer;
 	overflow: hidden;
+	transition: all .5s;
+	z-index: auto;
+}
+
+.if-gs-tile:hover {
+	transform: scale(1.03);
+	border-radius: 10px;
+	z-index: 50;
 }
 
 .if-gs-tile-category {
@@ -23,7 +33,7 @@
 	position: absolute;
 	top: 5px;
 	left: 5px;
-	border-radius: 2px;
+	border-radius: 3px;
 	color: #FFF;
 	padding: 4px 10px;
 	background: #173854;
@@ -31,10 +41,22 @@
 
 .if-gs-tile-title {
 	position: absolute;
+	left: 5px;
 	bottom: 10px;
 	padding: 6px 10px;
+	max-height: 75%;
+	max-width: 100%;
 	font-size: 1.4em;
+	overflow: hidden;
 	color: #FFF;
+	text-shadow: 0.05em 0 black,
+		0 0.05em black,
+		-0.05em 0 black,
+		0 -0.05em black,
+		-0.05em -0.05em black,
+		-0.05em 0.05em black,
+		0.05em -0.05em black,
+		0.05em 0.05em black;
 }
 
 .if-gs-tile-span2h {

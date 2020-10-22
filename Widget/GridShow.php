@@ -7,7 +7,7 @@ class GridShow extends \XF\Widget\AbstractWidget
 	public function render()
 	{
 		$repo = $this->getTileRepo();
-		$tiles = $repo->getActiveTiles()->fetch();
+		$tiles = $repo->getActiveTiles()->limit(12)->fetch();
 		$viewParams = [
 			'tiles' => $tiles
 		];

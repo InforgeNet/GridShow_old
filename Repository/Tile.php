@@ -7,7 +7,7 @@ class Tile extends \XF\Mvc\Entity\Repository
 	public function getActiveTiles()
 	{
 		return $this->finder('Inforge\GridShow:Tile')
-			->where('active', true)->order('display_order')->limit(9);
+			->where('active', true)->order('display_order');
 	}
 
 	public function getTiles()

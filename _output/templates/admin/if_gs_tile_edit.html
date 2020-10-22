@@ -11,7 +11,7 @@
 <xf:form action="{{ link('if-gs-list/save', $tile) }}" ajax="true" class="block">
 	<div class="block-container">
 		<div class="block-body">
-			<xf:textboxrow name="title" value="{$content.tile}"
+			<xf:textboxrow name="title" value="{$tile.title}"
 				maxlength="{{ max_length($tile, 'title') }}"
 				label="{{ phrase('title') }}" />
 

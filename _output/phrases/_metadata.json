@@ -41,6 +41,18 @@
         "version_string": "1.0.0",
         "hash": "491be8ac06c38c3531c162cb203c78b9"
     },
+    "permission.ifgs_view.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "26e1736d48d8811a7132369035497797"
+    },
+    "permission_interface.ifGsPermissions.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "b0a57348556c197bf302c91e7b4d9149"
+    },
     "widget_def.if_gs_widget.txt": {
         "global_cache": false,
         "version_id": 1000070,

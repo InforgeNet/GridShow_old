@@ -14,6 +14,11 @@ class GridShow extends \XF\Widget\AbstractWidget
 		return $this->renderer('if_gs_gridshow_widget', $viewParams);
 	}
 
+	public function getOptionsTemplate()
+	{
+		return null;
+	}
+
 	protected function getTileRepo()
 	{
 		return $this->repository('Inforge\GridShow:Tile');

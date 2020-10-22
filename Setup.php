@@ -38,11 +38,11 @@ class Setup extends AbstractSetup
 
 	public function uninstallStep1()
 	{
-		$this->schemaManager()->dropTable('xf_if_gs_tiles');
+		$this->deleteWidget('if_gs_home_gridshow');
 	}
 
 	public function uninstallStep2()
 	{
-		$this->deleteWidget('if_gs_home_gridshow');
+		$this->schemaManager()->dropTable('xf_if_gs_tiles');
 	}
 }

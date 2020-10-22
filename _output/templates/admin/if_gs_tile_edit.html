@@ -31,8 +31,9 @@
 			<xf:numberboxrow name="display_order" value="{$tile.display_order}"
 				label="{{ phrase('display_order') }}" min="0" />
 			
-			<xf:checkboxrow name="active" value="{$tile.active}"
-				label="{{ phrase('enable') }}" />
+			<xf:checkboxrow hideempty="true">
+				<xf:option name="active" selected="$tile.active">{{ phrase('enabled') }}</xf:option>
+			</xf:checkboxrow>
 		</div>
 		<xf:submitrow icon="save" sticky="true" />
 	</div>

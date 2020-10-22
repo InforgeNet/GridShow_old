@@ -1,4 +1,5 @@
 <xf:css src="if_gs_gridshow_widget.less" />
+<xf:js addon="Inforge/GridShow" src="inforge/gridshow/widget.js" min="1" />
 
 <div class="if-gs-widget">
 	<xf:foreach loop="$tiles" value="$tile">
@@ -12,3 +13,6 @@
 		</div>
 	</xf:foreach>
 </div>
+<xf:js>
+	if_gs_arrange_tiles();
+</xf:js>

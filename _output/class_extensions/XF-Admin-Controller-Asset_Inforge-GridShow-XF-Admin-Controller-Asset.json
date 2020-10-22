@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Admin\\Controller\\Asset",
+    "to_class": "Inforge\\GridShow\\XF\\Admin\\Controller\\Asset",
+    "execute_order": 100,
+    "active": true
+}

@@ -68,14 +68,6 @@ class Tile extends \XF\Mvc\Entity\Entity
 		return false;
 	}
 
-	protected function verifyImageUrl($imageUrl)
-	{
-		if ($this->isUpdate() && $imageUrl === $this->getExistingValue('image_url'))
-			return true;
-
-		return true; //TODO: verify image asset/url
-	}
-
 	protected function getTileRepo()
 	{
 		return $this->repository('Inforge\GridShow:Tile');

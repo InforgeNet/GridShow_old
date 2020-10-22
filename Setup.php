@@ -33,7 +33,7 @@ class Setup extends AbstractSetup
 	{
 		$this->createWidget('if_gs_home_gridshow', 'if_gs_widget', [
 			'positions' => [ 'forum_list_above_nodes' => 5 ],
-			'display_condition' => '$xf.visitor->hasPermission("ifgs", "view")'
+			'display_condition' => '$xf.options.ifGsEnable AND $xf.visitor->hasPermission("ifgs", "view")'
 		], '[Inforge] GridShow Widget');
 	}
 

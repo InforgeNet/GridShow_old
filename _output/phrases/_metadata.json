@@ -41,6 +41,30 @@
         "version_string": "1.0.0",
         "hash": "491be8ac06c38c3531c162cb203c78b9"
     },
+    "option.ifGsEnable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "5b497c387f76e008cb46bfbe6545dbb9"
+    },
+    "option_explain.ifGsEnable.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "848f2f516e91fc98f38b61454649f53e"
+    },
+    "option_group.ifGridShow.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "cd5dea941073f5f7cee1d6b1917837eb"
+    },
+    "option_group_description.ifGridShow.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "350283433d9f54cfd6bf0d076ec39247"
+    },
     "permission.ifgs_view.txt": {
         "global_cache": false,
         "version_id": 1000070,

@@ -1,0 +1,1 @@
+If enabled, the GridShow widget will be displayed in the forum homepage to those users that have the permission to view it. If disable, the GridShow widget will be hidden.

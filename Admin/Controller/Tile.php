@@ -8,9 +8,11 @@ class Tile extends \XF\Admin\Controller\AbstractController
 {
 	public function actionIndex()
 	{
+		$options = $this->em()->findByIds('XF:Option', ['ifGsEnable']);
 		$repo = $this->getTileRepo();
 		$viewParams = [
-			'tiles' => $repo->getTiles()->fetch()
+			'tiles' => $repo->getTiles()->fetch(),
+			'options' => $options
 		];
 		return $this->view('Inforge\GridShow:TileList', 'if_gs_tile_list', $viewParams);
 	}

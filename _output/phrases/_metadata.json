@@ -1,9 +1,15 @@
 {
+    "admin_navigation.if_gs.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "b612787cc9fbaee3f81e96ccd3958dca"
+    },
     "admin_navigation.if_gs_tiles.txt": {
         "global_cache": false,
         "version_id": 1000070,
         "version_string": "1.0.0",
-        "hash": "c38b9eb0d074ea6cb5e28373fba43955"
+        "hash": "a67f2c9d056f29b94521c17b838b9756"
     },
     "admin_permission.ifGsTiles.txt": {
         "global_cache": false,

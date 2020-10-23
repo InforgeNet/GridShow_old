@@ -16,5 +16,5 @@
 	    "XF": [ 2010010, "XenForo 2.1.0+" ],
 	    "php": [ "5.6.0", "PHP 5.6.0+" ]
     },
-    "icon": "fa-th"
+    "icon": "fad fa-th"
 }

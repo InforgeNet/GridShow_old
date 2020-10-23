@@ -1,0 +1,1 @@
+Select the background-size property for the tiles.

@@ -1,0 +1,13 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Category box max height",
+    "description": "Controls the maximum height of the colored box containing the category inside the tiles.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "unit",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "widget",
+    "property_value": "2.1em",
+    "display_order": 30
+}

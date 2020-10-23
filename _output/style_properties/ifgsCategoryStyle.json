@@ -1,0 +1,28 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Tile category styling",
+    "description": "Define style for tile's category.",
+    "property_type": "css",
+    "css_components": [
+        "text",
+        "background",
+        "border_radius",
+        "padding",
+        "extra"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "font-size": "@xf-fontSizeSmaller",
+        "color": "@xf-paletteNeutral1",
+        "background-color": "@xf-blockTabHeaderBg",
+        "border-radius": "@xf-borderRadiusMedium",
+        "padding-top": "@xf-paddingSmall",
+        "padding-right": "@xf-paddingLarge",
+        "padding-bottom": "@xf-paddingSmall",
+        "padding-left": "@xf-paddingLarge"
+    },
+    "display_order": 300
+}

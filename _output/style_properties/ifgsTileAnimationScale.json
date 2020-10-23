@@ -1,0 +1,13 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Tile animation scale",
+    "description": "Controls the scale of the tile in the animation.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "unit",
+    "value_parameters": "",
+    "depends_on": "ifgsTileAnimation",
+    "value_group": "tileAnimation",
+    "property_value": "1.03",
+    "display_order": 120
+}

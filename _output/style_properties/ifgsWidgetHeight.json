@@ -1,0 +1,13 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Widget height",
+    "description": "Defines the height of the widget.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "unit",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "widget",
+    "property_value": "475px",
+    "display_order": 10
+}

@@ -1,0 +1,1 @@
+Enable/Disable the animation of the tiles when the user moves the cursor over.

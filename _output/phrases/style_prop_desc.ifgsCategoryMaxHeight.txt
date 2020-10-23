@@ -1,0 +1,1 @@
+Controls the maximum height of the colored box containing the category inside the tiles.

@@ -23,11 +23,47 @@
         "version_string": "1.0.0",
         "hash": "df97cc4158bed602241ded4fe03a1f97"
     },
+    "if_gs_center_bottom.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "7bbb80aed75110e678055f0c00c2e68b"
+    },
+    "if_gs_center_center.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "fe3df63bfe85357d3be2fce92e98bc00"
+    },
+    "if_gs_center_top.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ade4c86ef3c906e8c98f42e75e424e3c"
+    },
+    "if_gs_cover_mode.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "c82dbd89c8f601aed8c4dc14f290df7e"
+    },
     "if_gs_create_new_tile.txt": {
         "global_cache": false,
         "version_id": 1000070,
         "version_string": "1.0.0",
         "hash": "8349c4708f356f3db33edf5193c6eb53"
+    },
+    "if_gs_do_not_repeat.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ed183c80ab0cfb4f73c5428b897aafe4"
+    },
+    "if_gs_do_not_resize.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "bafac15d11521426933f0b6ad3d6a8bd"
     },
     "if_gs_edit_tile.txt": {
         "global_cache": false,
@@ -35,11 +71,89 @@
         "version_string": "1.0.0",
         "hash": "f3aa4035483a9aec32c98b8fe008f017"
     },
+    "if_gs_left_bottom.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "5cb91d7590ceee3785a4af1f76b5a579"
+    },
+    "if_gs_left_center.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e245710d691f047e7fb2b977437abd66"
+    },
+    "if_gs_left_top.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "7387a7605acb97bfec1773ae9b0b9bff"
+    },
     "if_gs_list_of_tiles.txt": {
         "global_cache": false,
         "version_id": 1000070,
         "version_string": "1.0.0",
         "hash": "4f397bc35465f1b3662a319c5daff680"
+    },
+    "if_gs_repeat_adding_space.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "95c9108406ede992868655d9242abda5"
+    },
+    "if_gs_repeat_along_x.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "fc6e921ac4b1f71f1b8070bdc2fce948"
+    },
+    "if_gs_repeat_along_x_and_y.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "5d5c556f0fc8a1d22ee8f61f733fa880"
+    },
+    "if_gs_repeat_along_y.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "48759bb156130dfa2ce883620cadb747"
+    },
+    "if_gs_resize_and_stretch_background_to_cover_the_entire_tile.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "0b4c7f619331d99356c89c8f9f3a0e4e"
+    },
+    "if_gs_resize_background_to_display_it_fully.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4c6e0776e75886beb7d675eb187616ab"
+    },
+    "if_gs_right_bottom.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "74220d93d0431ac6e150755d80aa5baa"
+    },
+    "if_gs_right_center.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "3a27129098546fc521dc974d975a8ff5"
+    },
+    "if_gs_right_top.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "49bc8c5bbb835424fcdb4c2282e35f21"
+    },
+    "if_gs_stretch_background_to_fill_the_space.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d9cd0dee0d71d31f68aaeb8ab5fd608a"
     },
     "if_gs_url_contains_disallowed_scheme.txt": {
         "global_cache": false,
@@ -82,6 +196,174 @@
         "version_id": 1000070,
         "version_string": "1.0.0",
         "hash": "b0a57348556c197bf302c91e7b4d9149"
+    },
+    "style_prop.ifgsCategoryMaxHeight.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6b46e6598c46443a8386dc69fb4ed84a"
+    },
+    "style_prop.ifgsCategoryStyle.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4f3aaec018abaa1fecb3c08b3fed959b"
+    },
+    "style_prop.ifgsGridGap.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "bead00cd933eca6375f57940b142ce68"
+    },
+    "style_prop.ifgsTileAnimation.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "489477d90d42b527cf40c1d683b49ba7"
+    },
+    "style_prop.ifgsTileAnimationDuration.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "2438cc53c3f43a0467db73b9402bbafb"
+    },
+    "style_prop.ifgsTileAnimationScale.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d9a74060da682f796bcec4bba489885c"
+    },
+    "style_prop.ifgsTileBgPosition.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d48f2e699e16fe810a173508b3ee7561"
+    },
+    "style_prop.ifgsTileBgRepeat.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e9a1b2ddb8263a1238dbb3fc8486f5b6"
+    },
+    "style_prop.ifgsTileBgSize.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "b4f33293cf57d91005d2444467c0fa4c"
+    },
+    "style_prop.ifgsTileStyle.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "f4af77ed628ad6924955a4de5bf4c4db"
+    },
+    "style_prop.ifgsTitleMaxHeight.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "2eaa738a59433c12e4136750ef472298"
+    },
+    "style_prop.ifgsTitleStyle.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6aa083e548b5b6ecfa87b655428d4aa3"
+    },
+    "style_prop.ifgsWidgetHeight.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "189df29acbebda758e974d09b965326d"
+    },
+    "style_prop_desc.ifgsCategoryMaxHeight.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "9fce3dd66168d2db2bd61df93d392ce8"
+    },
+    "style_prop_desc.ifgsCategoryStyle.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "9a3843c92251f8e300e0d53551f34147"
+    },
+    "style_prop_desc.ifgsGridGap.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "1a72b65cf826310c03735cb1f728dc37"
+    },
+    "style_prop_desc.ifgsTileAnimation.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "534640876c91fffcb072c126ccb91975"
+    },
+    "style_prop_desc.ifgsTileAnimationDuration.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "5b9e80ef18f7bbd1645333630b31041a"
+    },
+    "style_prop_desc.ifgsTileAnimationScale.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e21ebf50d8e8bdc5c15eecb34788a96a"
+    },
+    "style_prop_desc.ifgsTileBgPosition.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4b490b459aa2ce58e7159993a83cf1bf"
+    },
+    "style_prop_desc.ifgsTileBgRepeat.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6266c83f2b1a32bda14c3fbdeb5107c5"
+    },
+    "style_prop_desc.ifgsTileBgSize.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "87c4529f4f756c435b088cf0720d596e"
+    },
+    "style_prop_desc.ifgsTileStyle.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d275ec267b4943fdf34a43cb563f8fae"
+    },
+    "style_prop_desc.ifgsTitleMaxHeight.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "550b68a207ddeb4ce0aec82608db52db"
+    },
+    "style_prop_desc.ifgsTitleStyle.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "951f99a57c06bf7f5889c216cd1f456b"
+    },
+    "style_prop_desc.ifgsWidgetHeight.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6eea88661c644d224a393c0ceacda470"
+    },
+    "style_prop_group.if_gridshow.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6e6bc9be10005e54693ae472af63605e"
+    },
+    "style_prop_group_desc.if_gridshow.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6451b45225a5e5323d3c687f5ed540da"
     },
     "widget_def.if_gs_widget.txt": {
         "global_cache": false,

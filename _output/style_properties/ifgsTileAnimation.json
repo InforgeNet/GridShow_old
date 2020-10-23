@@ -1,0 +1,13 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Tile animation",
+    "description": "Enable/Disable the animation of the tiles when the user moves the cursor over.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "boolean",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "tileAnimation",
+    "property_value": 1,
+    "display_order": 100
+}

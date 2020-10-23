@@ -1,0 +1,13 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Gap between tiles",
+    "description": "Defines the gap between tiles.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "unit",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "widget",
+    "property_value": "@xf-paddingMedium",
+    "display_order": 0
+}

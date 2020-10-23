@@ -1,0 +1,1 @@
+Controls the maximum height of the title's container inside tiles.

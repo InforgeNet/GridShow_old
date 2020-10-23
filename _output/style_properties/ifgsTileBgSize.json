@@ -1,0 +1,13 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Tile background size",
+    "description": "Select the background-size property for the tiles.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "radio",
+    "value_parameters": "auto={{ phrase('if_gs_do_not_resize') }}\ncover={{ phrase('if_gs_resize_background_to_display_it_fully') }}\ncontain={{ phrase('if_gs_resize_and_stretch_background_to_cover_the_entire_tile') }}",
+    "depends_on": "",
+    "value_group": "tileBackground",
+    "property_value": "cover",
+    "display_order": 200
+}

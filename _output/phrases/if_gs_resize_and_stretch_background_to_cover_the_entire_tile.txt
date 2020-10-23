@@ -1,0 +1,1 @@
+Resize and stretch background to cover the entire tile

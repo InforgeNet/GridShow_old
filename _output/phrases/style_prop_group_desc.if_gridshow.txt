@@ -1,0 +1,1 @@
+Settings related to the layout of the GridShow widget.

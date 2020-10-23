@@ -1,0 +1,22 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Tile title styling",
+    "description": "Define style for tile's titles.",
+    "property_type": "css",
+    "css_components": [
+        "text",
+        "padding",
+        "extra"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "font-size": "@xf-fontSizeLarger",
+        "color": "@xf-paletteNeutral1",
+        "padding": "@xf-paddingLargest",
+        "extra": "text-shadow: 0.05em 0 black,\n\t\t0 0.05em black,\n\t\t-0.05em 0 black,\n\t\t0 -0.05em black,\n\t\t-0.05em -0.05em black,\n\t\t-0.05em 0.05em black,\n\t\t0.05em -0.05em black,\n\t\t0.05em 0.05em black;"
+    },
+    "display_order": 200
+}

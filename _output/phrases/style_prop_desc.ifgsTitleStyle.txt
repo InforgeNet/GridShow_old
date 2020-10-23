@@ -1,0 +1,1 @@
+Define style for tile's titles.

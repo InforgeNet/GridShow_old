@@ -1,0 +1,13 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Tile background position",
+    "description": "Select position of the background inside the tile.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "select",
+    "value_parameters": "left top={{ phrase('if_gs_left_top') }}\nleft center={{ phrase('if_gs_left_center') }}\nleft bottom={{ phrase('if_gs_left_bottom') }}\nright top={{ phrase('if_gs_right_top') }}\nright center={{ phrase('if_gs_right_center') }}\nright bottom={{ phrase('if_gs_right_bottom') }}\ncenter top={{ phrase('if_gs_center_top') }}\ncenter center={{ phrase('if_gs_center_center') }}\ncenter bottom={{ phrase('if_gs_center_bottom') }}",
+    "depends_on": "",
+    "value_group": "tileBackground",
+    "property_value": "center center",
+    "display_order": 220
+}

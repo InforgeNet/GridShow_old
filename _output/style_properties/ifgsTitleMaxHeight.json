@@ -1,0 +1,13 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Title max height",
+    "description": "Controls the maximum height of the title's container inside tiles.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "unit",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "widget",
+    "property_value": "80%",
+    "display_order": 20
+}

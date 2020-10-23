@@ -1,0 +1,1 @@
+Select position of the background inside the tile.

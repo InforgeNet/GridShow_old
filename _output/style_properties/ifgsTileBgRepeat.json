@@ -1,0 +1,13 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Tile background repeat mode",
+    "description": "Select the background-repeat property of the tiles.",
+    "property_type": "value",
+    "css_components": [],
+    "value_type": "radio",
+    "value_parameters": "no-repeat={{ phrase('if_gs_do_not_repeat') }}\nrepeat={{ phrase('if_gs_repeat_along_x_and_y') }}\nrepeat-x={{ phrase('if_gs_repeat_along_x') }}\nrepeat-y={{ phrase('if_gs_repeat_along_y') }}\nspace={{ phrase('if_gs_repeat_adding_space') }}\nround={{ phrase('if_gs_stretch_background_to_fill_the_space') }}",
+    "depends_on": "",
+    "value_group": "tileBackground",
+    "property_value": "no-repeat",
+    "display_order": 210
+}

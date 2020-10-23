@@ -1,0 +1,23 @@
+{
+    "group_name": "if_gridshow",
+    "title": "Tile styling",
+    "description": "Define style for widget tiles.",
+    "property_type": "css",
+    "css_components": [
+        "border_radius_simple",
+        "padding",
+        "extra"
+    ],
+    "value_type": "",
+    "value_parameters": "",
+    "depends_on": "",
+    "value_group": "",
+    "property_value": {
+        "border-radius": "@xf-borderRadiusLarge",
+        "padding-top": "@xf-paddingMedium",
+        "padding-right": "@xf-paddingMedium",
+        "padding-bottom": "@xf-paddingLarge",
+        "padding-left": "@xf-paddingMedium"
+    },
+    "display_order": 100
+}

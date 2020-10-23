@@ -1,0 +1,41 @@
+{
+    "ifgsCategoryMaxHeight.json": {
+        "hash": "093ff9312b4b5a69e52a86574876d1fc"
+    },
+    "ifgsCategoryStyle.json": {
+        "hash": "a157e3dc8d105970a7915061f4b351c0"
+    },
+    "ifgsGridGap.json": {
+        "hash": "a157fcc7ac4be6181ebf9e5783d01edb"
+    },
+    "ifgsTileAnimation.json": {
+        "hash": "faf0deac45518d28c9854783942443e8"
+    },
+    "ifgsTileAnimationDuration.json": {
+        "hash": "80139628d0ea0fc8218b810a62fed119"
+    },
+    "ifgsTileAnimationScale.json": {
+        "hash": "f873c30a6ea4a15e23fdca20e0f96c3f"
+    },
+    "ifgsTileBgPosition.json": {
+        "hash": "b50218feffa432698032be300e8b0557"
+    },
+    "ifgsTileBgRepeat.json": {
+        "hash": "daa36bf70cb3b8cd54e1581271503c61"
+    },
+    "ifgsTileBgSize.json": {
+        "hash": "1f7664e153eddc4be370b0a88e47edb0"
+    },
+    "ifgsTileStyle.json": {
+        "hash": "0ec4d2c7e5e0cbbdcd4224881538abeb"
+    },
+    "ifgsTitleMaxHeight.json": {
+        "hash": "b425dc0d4e45d1ec80aa30d767b6d32d"
+    },
+    "ifgsTitleStyle.json": {
+        "hash": "44d415700917e89c511429ec02687415"
+    },
+    "ifgsWidgetHeight.json": {
+        "hash": "76c76490b061a87ce279a3d9982083df"
+    }
+}

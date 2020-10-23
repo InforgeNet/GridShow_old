@@ -1,0 +1,1 @@
+Controls the scale of the tile in the animation.

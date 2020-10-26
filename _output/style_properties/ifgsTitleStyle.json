@@ -18,5 +18,5 @@
         "padding": "@xf-paddingLargest",
         "extra": "text-shadow: 0.05em 0 black,\n\t\t0 0.05em black,\n\t\t-0.05em 0 black,\n\t\t0 -0.05em black,\n\t\t-0.05em -0.05em black,\n\t\t-0.05em 0.05em black,\n\t\t0.05em -0.05em black,\n\t\t0.05em 0.05em black;"
     },
-    "display_order": 200
+    "display_order": 300
 }

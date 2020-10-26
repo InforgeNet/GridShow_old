@@ -3,7 +3,7 @@
         "hash": "093ff9312b4b5a69e52a86574876d1fc"
     },
     "ifgsCategoryStyle.json": {
-        "hash": "a157e3dc8d105970a7915061f4b351c0"
+        "hash": "6d15099772c93942a0ab9afeabd87a25"
     },
     "ifgsGridGap.json": {
         "hash": "a157fcc7ac4be6181ebf9e5783d01edb"
@@ -27,15 +27,18 @@
         "hash": "1f7664e153eddc4be370b0a88e47edb0"
     },
     "ifgsTileStyle.json": {
-        "hash": "0ec4d2c7e5e0cbbdcd4224881538abeb"
+        "hash": "4e05fb3ff3eca1f2d3ad8ac6fe9872ba"
     },
     "ifgsTitleMaxHeight.json": {
         "hash": "b425dc0d4e45d1ec80aa30d767b6d32d"
     },
     "ifgsTitleStyle.json": {
-        "hash": "44d415700917e89c511429ec02687415"
+        "hash": "4a149c46e326030b1cb9b7bcc9c6f392"
     },
     "ifgsWidgetHeight.json": {
         "hash": "76c76490b061a87ce279a3d9982083df"
+    },
+    "ifgsWidgetStyle.json": {
+        "hash": "1cd6101b0e7157ab64477a8d7f42ca8a"
     }
 }

@@ -275,6 +275,12 @@
         "version_string": "1.0.0",
         "hash": "189df29acbebda758e974d09b965326d"
     },
+    "style_prop.ifgsWidgetStyle.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "91b19204fcedbfcb0a375f4890a55880"
+    },
     "style_prop_desc.ifgsCategoryMaxHeight.txt": {
         "global_cache": false,
         "version_id": 1000070,
@@ -352,6 +358,12 @@
         "version_id": 1000070,
         "version_string": "1.0.0",
         "hash": "6eea88661c644d224a393c0ceacda470"
+    },
+    "style_prop_desc.ifgsWidgetStyle.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d79cac577b2a24b7784dd39bf43183c9"
     },
     "style_prop_group.if_gridshow.txt": {
         "global_cache": false,

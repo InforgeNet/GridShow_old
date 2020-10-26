@@ -1,0 +1,1 @@
+Additional CSS/LESS style for the widget.

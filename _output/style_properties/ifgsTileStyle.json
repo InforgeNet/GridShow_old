@@ -19,5 +19,5 @@
         "padding-bottom": "@xf-paddingLarge",
         "padding-left": "@xf-paddingMedium"
     },
-    "display_order": 100
+    "display_order": 200
 }

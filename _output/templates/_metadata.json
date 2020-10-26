@@ -12,11 +12,11 @@
     "public/if_gs_gridshow_widget.html": {
         "version_id": 1000070,
         "version_string": "1.0.0",
-        "hash": "7594b983b1b08606aafa6f912c3d1148"
+        "hash": "4206170cb29b0cf988f3b4bee88551f0"
     },
     "public/if_gs_gridshow_widget.less": {
         "version_id": 1000070,
         "version_string": "1.0.0",
-        "hash": "f95768b90c26bbd82f748b9ace0739d0"
+        "hash": "1654ad3dbc70e1f1518cf58bcd0f5c6e"
     }
 }

@@ -43,6 +43,11 @@ class Tile extends \XF\Mvc\Entity\Entity
 			'active' => [
 				'type' => self::BOOL,
 				'default' => true
+			],
+			'font_size' => [
+				'type' => self::STR,
+				'maxLength' => 10,
+				'required' => false
 			]
 		];
 
@@ -66,6 +71,19 @@ class Tile extends \XF\Mvc\Entity\Entity
 		else
 			$this->error(\XF::phrase('please_enter_valid_url'));
 		return false;
+	}
+
+	protected function verifyFontSize($fontSize)
+	{
+		if ($fontSize === null || $fontSize === '')
+			return true;
+		if (preg_match(
+			'/^[ \t]*[0-9]*\.*[0-9]+(cm|mm|in|px|pt|pc|em|ex|ch|rem|vh|vw|vim|vmax|\%)[ \t]*$/',
+			$fontSize) !== 1) {
+			$this->error(\XF::phrase('if_gs_please_enter_valid_font_size_with_unit'));
+			return false;
+		}
+		return true;
 	}
 
 	protected function getTileRepo()

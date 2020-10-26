@@ -95,6 +95,12 @@
         "version_string": "1.0.0",
         "hash": "4f397bc35465f1b3662a319c5daff680"
     },
+    "if_gs_please_enter_valid_font_size_with_unit.txt": {
+        "global_cache": false,
+        "version_id": 1010070,
+        "version_string": "1.1.0",
+        "hash": "29a93c9d571279b746c5e72dadfe875d"
+    },
     "if_gs_repeat_adding_space.txt": {
         "global_cache": false,
         "version_id": 1000070,
@@ -155,11 +161,29 @@
         "version_string": "1.0.0",
         "hash": "d9cd0dee0d71d31f68aaeb8ab5fd608a"
     },
+    "if_gs_title_font_size.txt": {
+        "global_cache": false,
+        "version_id": 1010070,
+        "version_string": "1.1.0",
+        "hash": "f0dead1275554545f746af80dfbd67db"
+    },
     "if_gs_url_contains_disallowed_scheme.txt": {
         "global_cache": false,
         "version_id": 1000070,
         "version_string": "1.0.0",
         "hash": "491be8ac06c38c3531c162cb203c78b9"
+    },
+    "if_gs_use_custom_font_size.txt": {
+        "global_cache": false,
+        "version_id": 1010070,
+        "version_string": "1.1.0",
+        "hash": "8f5ca8c0d42a139c77461b6efe6dee03"
+    },
+    "if_gs_use_default.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "18d2833f3521aae3659901e620253894"
     },
     "option.ifGsEnable.txt": {
         "global_cache": false,

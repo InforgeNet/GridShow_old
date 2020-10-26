@@ -19,8 +19,12 @@ class Tile extends \XF\Admin\Controller\AbstractController
 
 	protected function tileAddEdit(\Inforge\GridShow\Entity\Tile $tile)
 	{
+		$overrideFontSize = 'override';
+		if ($tile->font_size === null || $tile->font_size === '')
+			$overrideFontSize = 'use_default';
 		$viewParams = [
-			'tile' => $tile
+			'tile' => $tile,
+			'override_font_size' => $overrideFontSize
 		];
 		return $this->view('Inforge\GridShow:Tile\Edit', 'if_gs_tile_edit', $viewParams);
 	}
@@ -75,6 +79,7 @@ class Tile extends \XF\Admin\Controller\AbstractController
 			'category' => 'str',
 			'link' => 'str',
 			'image_url' => 'str',
+			'font_size' => 'str',
 			'display_order' => 'uint',
 			'active' => 'bool'
 		]);

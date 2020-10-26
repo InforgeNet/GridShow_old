@@ -28,6 +28,16 @@
 				maxlength="{{ max_length($tile, 'image_url') }}"
 				dir="ltr" />
 
+			<xf:radiorow name="override_font_size" value="{$override_font_size}" listclass="_listColumns"
+					label="{{ phrase('if_gs_title_font_size') }}">
+				<xf:option value="use_default">{{ phrase('if_gs_use_default') }}</xf:option>
+				<xf:option value="override" data-hide="true" label="{{ phrase('if_gs_use_custom_font_size') }}">
+					<xf:dependent><xf:textbox name="font_size" value="{$tile.font_size}"
+						maxlength="{{ max_length($tile, 'font_size') }}"
+						placeholder="{{ phrase('font_size') }}" dir="ltr" /></xf:dependent>
+				</xf:option>
+			</xf:radiorow>
+
 			<xf:numberboxrow name="display_order" value="{$tile.display_order}"
 				label="{{ phrase('display_order') }}" min="0" />
 			

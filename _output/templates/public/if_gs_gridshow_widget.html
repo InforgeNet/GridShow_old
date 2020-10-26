@@ -3,11 +3,16 @@
 
 <div class="block if-gs-widget">
 	<xf:foreach loop="$tiles" value="$tile">
-		<a class="if-gs-tile" style="background-image:url({$tile.image_url})" href="{$tile.link}">
+		<xf:if is="{$tile.font_size} !== null AND {$tile.font_size} !== ''">
+			<xf:set var="$font_size_style" value="font-size: {{ $tile.font_size }};" />
+		<xf:else />
+			<xf:set var="$font_size_style" value="" />
+		</xf:if>
+		<a class="if-gs-tile" style="background-image:url({$tile.image_url});" href="{$tile.link}">
 			<div class="if-gs-tile-category">
 				{$tile.category}
 			</div>
-			<div class="if-gs-tile-title">
+			<div class="if-gs-tile-title" style="{$font_size_style}">
 				{$tile.title}
 			</div>
 		</a>

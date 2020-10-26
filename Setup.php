@@ -7,6 +7,7 @@ use XF\AddOn\StepRunnerInstallTrait;
 use XF\AddOn\StepRunnerUninstallTrait;
 use XF\AddOn\StepRunnerUpgradeTrait;
 use XF\Db\Schema\Create;
+use XF\Db\Schema\Alter;
 
 class Setup extends AbstractSetup
 {
@@ -40,6 +41,14 @@ class Setup extends AbstractSetup
 	public function installStep3()
 	{
 		$this->applyGlobalPermission('ifgs', 'view');
+	}
+
+	public function upgrade1010070Step1()
+	{
+		$this->schemaManager()->alterTable('xf_if_gs_tiles', function (Alter $table)
+		{
+			$table->addColumn('font_size', 'varchar', 10)->nullable();
+		});
 	}
 
 	public function uninstallStep1()

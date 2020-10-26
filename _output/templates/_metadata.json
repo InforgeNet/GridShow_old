@@ -1,8 +1,8 @@
 {
     "admin/if_gs_tile_edit.html": {
-        "version_id": 1000070,
-        "version_string": "1.0.0",
-        "hash": "d3f6f762a39abbd6d444b259f7c3f9e8"
+        "version_id": 1010070,
+        "version_string": "1.1.0",
+        "hash": "178ae4e894fc7c97cd2a9b1e926b609f"
     },
     "admin/if_gs_tile_list.html": {
         "version_id": 1000070,
@@ -10,9 +10,9 @@
         "hash": "91c40ab5a4793fbff30525c346f3c113"
     },
     "public/if_gs_gridshow_widget.html": {
-        "version_id": 1000070,
-        "version_string": "1.0.0",
-        "hash": "4206170cb29b0cf988f3b4bee88551f0"
+        "version_id": 1010070,
+        "version_string": "1.1.0",
+        "hash": "2a26b6d9d2f79493a6419b819c0ec815"
     },
     "public/if_gs_gridshow_widget.less": {
         "version_id": 1000070,

@@ -1,3 +1,11 @@
+# !! WARNING: DISCONTINUED !!
+
+Project has moved to a
+[private repository](https://github.com/InforgeNet/GridShow2).
+
+Actually, only inforge.net is licensed to use the new version of GridShow. We
+are looking forward to give the opportunity to everyone to buy this software.
+
 # GridShow
 XenForo 2.x AddOn to show a grid of tiles in homepage.
 

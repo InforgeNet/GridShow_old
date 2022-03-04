@@ -1,7 +1,7 @@
 # !! WARNING: DISCONTINUED !!
 
 Project has moved to a
-[private repository](https://github.com/InforgeNet/GridShow_old).
+[private repository](https://github.com/InforgeNet/GridShow).
 
 Actually, only inforge.net is licensed to use the new version of GridShow. We
 are looking forward to give the opportunity to everyone to buy this software.

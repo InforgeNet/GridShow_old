@@ -1,7 +1,7 @@
 # !! WARNING: DISCONTINUED !!
 
 Project has moved to a
-[private repository](https://github.com/InforgeNet/GridShow2).
+[private repository](https://github.com/InforgeNet/GridShow_old).
 
 Actually, only inforge.net is licensed to use the new version of GridShow. We
 are looking forward to give the opportunity to everyone to buy this software.
@@ -9,12 +9,12 @@ are looking forward to give the opportunity to everyone to buy this software.
 # GridShow
 XenForo 2.x AddOn to show a grid of tiles in homepage.
 
-![gridshow](https://github.com/InforgeNet/GridShow/wiki/images/gridshow.png)
+![gridshow](https://github.com/InforgeNet/GridShow_old/wiki/images/gridshow.png)
 
 ## Installation
 
 Download the [latest
-release](https://github.com/InforgeNet/GridShow/releases/latest) and follow the
+release](https://github.com/InforgeNet/GridShow_old/releases/latest) and follow the
 instructions for [installing an add-on for
 XenForo2](https://xenforo.com/xf2-docs/manual/add-ons/).
 
@@ -38,4 +38,4 @@ of the addon.
 ### Help
 
 If you have a problem with this addon, open an
-[issue](https://github.com/InforgeNet/GridShow/issues/new).
+[issue](https://github.com/InforgeNet/GridShow_old/issues/new).
